@@ -68,7 +68,7 @@ app.get('/help',(req,res)=>
 {
     res.render('help',{
         title:'Help',
-        name:'Some use ful keywords are given below'
+        name:'Some use ful keyword are given below'
     });
 })
 
