@@ -9,7 +9,7 @@ const input=search.value;
 console.log(input);
 message1.textContent="Loading Content......"
 message2.textContent=" "
-fetch('http://localhost:3000/weather?scope=' + input).then((response) => {
+fetch('/weather?scope=' + input).then((response) => {
     response.json().then((data) => {
         if (data.error) {
             message1.textContent=data.error;
