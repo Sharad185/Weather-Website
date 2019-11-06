@@ -4,7 +4,7 @@ const hbs=require('hbs')
 const geocode=require('./utils/geocode');
 const forecast=require('./utils/forecast');
 const app = express()
-const port = process.env.PORT || 3000
+const port = process.env.PORT || 5000
 console.log(__dirname);
 console.log(__filename);
 console.log(path.join(__dirname,'../public'));
